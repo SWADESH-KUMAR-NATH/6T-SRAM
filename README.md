@@ -20,6 +20,6 @@ constraints
 ![SRAM-write](https://drive.google.com/file/d/1LhJYsB041pLpC6p5ynxq5GvFFjjhyd9U/view?usp=sharing)
 
 > SIZING OF 6T-SRAM CELL
-![Final SRAM Sizing](https://drive.google.com/file/d/1XX8RgX9v7Z1RsueRVYQ-B5p6bmrtZCw3/view?usp=sharing)
+![Final SRAM Sizing](D:\GIT\6T-SRAM_CELL.JPG)
 
 
