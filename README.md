@@ -17,16 +17,16 @@ constraints
 > READ OPERATION
 ---
 
-![SRAM-read](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/SRAM_READ.JPG)
+![SRAM-read](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG)
 
 > WRITE OPERATION
 ---
 
-![SRAM-write](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/SRAM_WRITE.JPG)
+![SRAM-write](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG)
 
 > SIZING OF 6T-SRAM CELL
 ---
 
-![Final SRAM Sizing](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/6T-SRAM_CELL.JPG0)
+![Final SRAM Sizing](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.JPG0)
 
 
