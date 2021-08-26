@@ -19,6 +19,7 @@ constraints
 
 ![SRAM-read](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG)
 
+![]()
 > WRITE OPERATION
 ---
 
@@ -28,5 +29,10 @@ constraints
 ---
 
 ![Final SRAM Sizing](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.JPG)
+
+![DC ANALYSIS](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_dc.PNG)
+![SNM HOLD](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_hold.PNG)
+![SNM READ](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_read.PNG)
+![TRANSISENT ANALYSIS](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG)
 
 
