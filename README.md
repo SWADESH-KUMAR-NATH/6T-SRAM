@@ -27,6 +27,6 @@ constraints
 > SIZING OF 6T-SRAM CELL
 ---
 
-![Final SRAM Sizing](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.JPG0)
+![Final SRAM Sizing](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.JPG)
 
 
