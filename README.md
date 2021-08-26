@@ -15,11 +15,10 @@ constraints
 * Technology : *scn4m_subm 0.5um*
 
 > READ OPERATION
-![SRAM-read]()
+![SRAM-read](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/SRAM_READ.JPG)
 > WRITE OPERATION
-![SRAM-write](https://drive.google.com/file/d/1LhJYsB041pLpC6p5ynxq5GvFFjjhyd9U/view?usp=sharing)
+![SRAM-write](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/SRAM_WRITE.JPG)
 
 > SIZING OF 6T-SRAM CELL
-![Final SRAM Sizing](D:\GIT\6T-SRAM_CELL.JPG)
-
+![Final SRAM Sizing](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/6T-SRAM_CELL.JPG0)
 
