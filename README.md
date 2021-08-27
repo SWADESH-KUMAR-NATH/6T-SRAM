@@ -74,4 +74,8 @@ Here the effect of parasitic capacitors`(gate capacitance)` at BL, BLB and WL ar
 
 ![TRANSISENT ANALYSIS](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG)
 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG" 
+     width="500" 
+     height="400" />
+
 
