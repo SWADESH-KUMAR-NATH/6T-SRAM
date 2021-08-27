@@ -19,7 +19,7 @@ constraints
 
 ![SRAM-read](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG)
 
-[*For reading the data when node Q1 has logic 1 voltage*]
+[*For reading the data when node Q1 has logic 0 voltage*]
 
 ![READ EQ](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/read_eq.PNG)
 
