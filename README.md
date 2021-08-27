@@ -62,6 +62,6 @@ The stability and writability of the SRAM cell depends upon `Hold margin`,`Read 
 ---
 ### TRANSIENT ANALYSIS
 Here the effect of parasitic capacitors`(gate capacitance)` at BL, BLB and WL are demonstrated 
-![TRANSISENT ANALYSIS](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG){: width=100px}
+![TRANSISENT ANALYSIS](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG =100px)
 
 
