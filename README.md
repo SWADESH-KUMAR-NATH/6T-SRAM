@@ -17,16 +17,22 @@ constraints
 ---
 > READ OPERATION
 
-![SRAM-read](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG" 
+     width="600" 
+     height="400" />
 
 [*For reading the data when node Q1 has logic 0 voltage*]
 
-![READ EQ](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/read_eq.PNG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/read_eq.PNG" 
+     width="600" 
+     height="400" />
 
 ---
 > WRITE OPERATION
 
-![SRAM-write](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG" 
+     width="600" 
+     height="400" />
 
 [*For writing logic o at node Q1 when it has a previous value of logic 1*]
 
