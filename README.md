@@ -33,16 +33,19 @@ Here according to the row and column address one of the wordline and one of the 
 [sizing in detail](#https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
 
 Finally, the sizes of 6 Transistors are as follows :
+
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.jpg"
      align=right
      width="whatever" 
      height="250" />
-<center>[ fig - 6T-SRAM Cell ]</center>
+
 | TRANSISTOR | WIDTH | LENGTH |
 | --- | --- | --- |
 | M1, M2 | 1.2um | 0.4um |
 | M3, M4 | 0.6um | 0.8um |
 | M5, M6 | 0.6um | 1.2um |
+
+<center>[ fig - 6T-SRAM Cell ]</center>
 
 ## PRE-LAYOUT SIMULATIONS
 
