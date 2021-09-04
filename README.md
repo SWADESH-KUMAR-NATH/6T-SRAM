@@ -1,17 +1,17 @@
 # 6T-SRAM
 
 ## Table of Contents
-- [SRAM BLOCKS](#SRAM BLOCKS)
-     - [6T 1-BIT SRAM CELL](#6T 1-BIT SRAM CELL)
-     - [PRECHARGE CIRCUIT](#PRECHARGE CIRCUIT)
-     - [SENSE AMPLIFIER](#SENSE AMPLIFIER)
-     - [WRITE DRIVER](#WRITE DRIVER)
-- [PRE-LAYOUT SIMULATIONS](#PRE-LAYOUT SIMULATIONS)
-     - [STATIC NOISE MARGIN](#STATIC NOISE MARGIN)
-     - [TRANSIENT ANALYSIS](#TRANSIENT ANALYSIS)
+- [SRAM BLOCKS](#SRAM-BLOCKS)
+     - [6T 1-BIT SRAM CELL](#6T-1-BIT-SRAM CELL)
+     - [PRECHARGE CIRCUIT](#PRECHARGE-CIRCUIT)
+     - [SENSE AMPLIFIER](#SENSE-AMPLIFIER)
+     - [WRITE DRIVER](#WRITE-DRIVER)
+- [PRE-LAYOUT SIMULATIONS](#PRE-LAYOUT-SIMULATIONS)
+     - [STATIC NOISE MARGIN](#STATIC-NOISE-MARGIN)
+     - [TRANSIENT ANALYSIS](#TRANSIENT-ANALYSIS)
 - [LAYOUTS](#LAYOUTS)
-- [Contact_Information](#Contact_Information)
-- [Acknowledgements](#Acknowledgements)
+- [CONTACT INFORMATION](#CONTACT-INFORMATION)
+- [ACKNOWLEDGEMENTS](#ACKNOWLEDGEMENTS)
 
 ## Overview
 
@@ -105,13 +105,12 @@ Inabsence of word line voltage, the ability of SRAM to retain the stored data is
      width="whatever" 
      height="whatever" />
 
-## Acknowledgements
+## ACKNOWLEDGEMENTS
 
- -   Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
+-   Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
 -   Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
 
 ---
-## Contact_Information
+## CONTACT INFORMATION
 
- - Gautam Kumar, Design Engineer, [Sevya Multimedia Technologies Pvt. Ltd.](https://sevyamultimedia.com/)
- - gautamkumar99342@gmail.com
+ - Swadesh Kumar Nath, Design Engineer, [Sevya Multimedia Technologies Pvt. Ltd.](https://sevyamultimedia.com/)
