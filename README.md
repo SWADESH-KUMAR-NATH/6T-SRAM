@@ -17,25 +17,35 @@ constraints
 ---
 > READ OPERATION
 
-![SRAM-read](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG" 
+     width="600" 
+     height="400" />
 
-[*For reading the data when node Q1 has logic 1 voltage*]
+[*For reading the data when node Q1 has logic 0 voltage*]
 
-![READ EQ](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/read_eq.PNG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/read_eq.PNG" 
+     width="600" 
+     height="400" />
 
 ---
 > WRITE OPERATION
 
-![SRAM-write](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG" 
+     width="600" 
+     height="400" />
 
 [*For writing logic o at node Q1 when it has a previous value of logic 1*]
 
-![WRITE EQ](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/write_eq.PNG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/write_eq.PNG" 
+     width="600" 
+     height="400" />
 
 ---
 > SIZING OF 6T-SRAM CELL
 
-![Final SRAM Sizing](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.JPG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.JPG" 
+     width="600" 
+     height="400" />
 
 Finally, the sizes of 6 Transistors are as follows :
 
@@ -51,7 +61,9 @@ Finally, the sizes of 6 Transistors are as follows :
 
 Voltage Transfer Characteristic (VTC) of individual inverter :
 
-![DC ANALYSIS](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_dc.PNG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_dc.PNG" 
+     width="600" 
+     height="400" />
 
 Here for *Vdd = 5V* we got the *Inversion Threshold* or *Switching Threshold* as *1.2V*.
 
@@ -62,16 +74,22 @@ The stability and writability of the SRAM cell depends upon *Hold margin*,*Read 
 
 1. HOLD SNM
 
-![SNM HOLD](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_hold.PNG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_hold.PNG" 
+     width="600" 
+     height="400" />
 
 2. READ SNM
 
-![SNM READ](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_read.PNG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_read.PNG" 
+     width="600" 
+     height="400" />
 
 ---
 ### TRANSIENT ANALYSIS
-Here the effect of parasitic capacitors`(gate capacitance)` at BL, BLB and WL are demonstrated :
+Here the effect of `junction capacitance` at BL, BLB and WL are demonstrated :
 
-![TRANSISENT ANALYSIS](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG)
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG" 
+     width="600" 
+     height="400" />
 
 
