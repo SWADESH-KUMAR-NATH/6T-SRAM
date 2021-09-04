@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [SRAM BLOCKS](#SRAM-BLOCKS)
-     - [6T 1 BIT SRAM CELL](#6T-1-BIT-SRAM CELL)
+     - [6T 1 BIT SRAM CELL](#6T-1-BIT-SRAM-CELL)
      - [PRECHARGE CIRCUIT](#PRECHARGE-CIRCUIT)
      - [SENSE AMPLIFIER](#SENSE-AMPLIFIER)
      - [WRITE DRIVER](#WRITE-DRIVER)
@@ -76,17 +76,18 @@ Inabsence of word line voltage, the ability of SRAM to retain the stored data is
      height="whatever" />
 
 ---
+
 ### TRANSIENT ANALYSIS
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans1.JPG" 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans1.JPG" 
      width="whatever" 
      height="whatever" />
      
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans2.JPG" 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans2.JPG" 
      width="whatever" 
      height="whatever" />
      
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans3.JPG" 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans3.JPG" 
      width="whatever" 
      height="whatever" />
 
