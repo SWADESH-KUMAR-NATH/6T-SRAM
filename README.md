@@ -32,16 +32,16 @@ Here according to the row and column address one of the wordline and one of the 
 ## SRAM BLOCKS
 ### 6T 1 BIT SRAM CELL
 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.png"
+     align=right
+     width="whatever" 
+     height="250" />
+ 
 *The sizing of all the 6 Transistors are done so that the internal node voltage at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
 
 [sizing in detail](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
 
 Finally, the sizes of 6 Transistors are as follows :
-
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.png"
-     align=right
-     width="whatever" 
-     height="250" />
 
 | TRANSISTOR | WIDTH | LENGTH |
 | --- | --- | --- |
@@ -54,6 +54,7 @@ Finally, the sizes of 6 Transistors are as follows :
 ### SENSE AMPLIFIER
 
 ### WRITE DRIVER
+
 ---
 
 ## PRE-LAYOUT SIMULATIONS
