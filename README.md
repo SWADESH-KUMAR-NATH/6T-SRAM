@@ -1,16 +1,34 @@
 # 6T-SRAM
 
 ## Table of Contents
-* 6T-SRAM CELL DESIGN
-* PRE-LAYOUT SIMULATIONS
-* LAYOUTS
+- [SRAM BLOCKS](#SRAM BLOCKS)
+     - [6T 1-BIT SRAM CELL](#6T 1-BIT SRAM CELL)
+     - [PRECHARGE CIRCUIT](#PRECHARGE CIRCUIT)
+     - [SENSE AMPLIFIER](#SENSE AMPLIFIER)
+     - [WRITE DRIVER](#WRITE DRIVER)
+- [PRE-LAYOUT SIMULATIONS](#PRE-LAYOUT SIMULATIONS)
+     - [STATIC NOISE MARGIN](#STATIC NOISE MARGIN)
+     - [TRANSIENT ANALYSIS](#TRANSIENT ANALYSIS)
+- [LAYOUTS](#LAYOUTS)
+- [Contact_Information](#Contact_Information)
+- [Acknowledgements](#Acknowledgements)
 
-## 6T-SRAM CELL DESIGN
+## Overview
+
+
+![SRAM Block Diagram](https://github.com/gautam19499/6T-SRAM_cell_design/blob/main/images/block_diagram_new.jpeg)
+
 In this Project we designed the various components of SRAM considering the below
 constraints
 * Memory size    : *1K\*32bit*
 * Supply voltage : *5.0V*
 * Technology     : *scn4m_subm 0.5um*
+Here according to the row and column address one of the wordline and one of the column will get selected, which will give access to one of the 6T cell in the respective column. For this 6T cell, we did the simulation and checked its functionality.
+
+---
+
+## SRAM BLOCKS
+### 6T 1-BIT SRAM CELL
 
 *The sizing of all the 6 Transistors are done so that the internal node voltage at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
 
@@ -45,9 +63,16 @@ Finally, the sizes of 6 Transistors are as follows :
 
 ### STATIC NOISE MARGIN
 
-The stability and writability of the SRAM cell depends upon *Hold margin*,*Read margin* and *Write margin*, which are determined by *Static Noise Margin(SNM)* of the two cross coupled inverters
+Static Noise Margin helps to determine the stability of the SRAM. It can also be defined as the least noise voltage needed to change the cell state .One of the methods of calculating the Static Noise Margin (SNM) is by plotting the butterfly curve. Butterfly curve is plotted by drawing and mirroring the inverter characteristics and then finding the maximum possible square between them. The length of the side of the square gives SNM. Greater the SNM better is stability.
 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.jpg"
+     width="whatever" 
+     height="whatever" />
+<center>Examples of SNM for Hold , Read and Write mode respectively.</center>
+     
 1. HOLD SNM
+
+Inabsence of word line voltage, the ability of SRAM to retain the stored data is defined as hold stability.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_hold.jpg" 
      width="whatever" 
@@ -55,16 +80,38 @@ The stability and writability of the SRAM cell depends upon *Hold margin*,*Read 
 
 2. READ SNM
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_read.PNG" 
-     width="600" 
-     height="400" />
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_read.jpg" 
+     width="whatever" 
+     height="whatever" />
+
+3. WRITE SNM
+
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_write.jpg" 
+     width="whatever" 
+     height="whatever" />
 
 ---
 ### TRANSIENT ANALYSIS
-Here the effect of `junction capacitance` at BL, BLB and WL are demonstrated :
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_trans1.PNG" 
-     width="600" 
-     height="400" />
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans1.PNG" 
+     width="whatever" 
+     height="whatever" />
+     
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans2.PNG" 
+     width="whatever" 
+     height="whatever" />
+     
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans3.PNG" 
+     width="whatever" 
+     height="whatever" />
 
+## Acknowledgements
 
+ -   Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
+-   Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
+
+---
+## Contact_Information
+
+ - Gautam Kumar, Design Engineer, [Sevya Multimedia Technologies Pvt. Ltd.](https://sevyamultimedia.com/)
+ - gautamkumar99342@gmail.com
