@@ -17,36 +17,22 @@ constraints
 ---
 > READ OPERATION
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG" 
-     width="600" 
-     height="400" />
-
 [*For reading the data when node Q1 has logic 0 voltage*]
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/read_eq.PNG" 
-     width="600" 
-     height="400" />
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG" 
+     width="whatever" 
+     height="whatever" />
 
 ---
 > WRITE OPERATION
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG" 
-     width="600" 
-     height="400" />
-
 [*For writing logic o at node Q1 when it has a previous value of logic 1*]
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/write_eq.PNG" 
-     width="600" 
-     height="400" />
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG" 
+     width="whatever" 
+     height="whatever" />
 
 ---
-> SIZING OF 6T-SRAM CELL
-
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.JPG" 
-     width="600" 
-     height="400" />
-
 Finally, the sizes of 6 Transistors are as follows :
 
 | TRANSISTOR | WIDTH | LENGTH |
@@ -57,26 +43,15 @@ Finally, the sizes of 6 Transistors are as follows :
 
 ## PRE-LAYOUT SIMULATIONS
 
-### DC ANALYSIS
-
-Voltage Transfer Characteristic (VTC) of individual inverter :
-
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_dc.PNG" 
-     width="600" 
-     height="400" />
-
-Here for *Vdd = 5V* we got the *Inversion Threshold* or *Switching Threshold* as *1.2V*.
-
----
-### SNM
+### STATIC NOISE MARGIN
 
 The stability and writability of the SRAM cell depends upon *Hold margin*,*Read margin* and *Write margin*, which are determined by *Static Noise Margin(SNM)* of the two cross coupled inverters
 
 1. HOLD SNM
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/sram_hold.PNG" 
-     width="600" 
-     height="400" />
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_hold.jpg" 
+     width="whatever" 
+     height="whatever" />
 
 2. READ SNM
 
