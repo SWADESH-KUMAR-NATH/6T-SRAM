@@ -13,6 +13,8 @@
 - [CONTACT INFORMATION](#CONTACT-INFORMATION)
 - [ACKNOWLEDGEMENTS](#ACKNOWLEDGEMENTS)
 
+---
+
 ## Overview
 
 ![SRAM Block Diagram](https://github.com/gautam19499/6T-SRAM_cell_design/blob/main/images/block_diagram_new.jpeg)
@@ -30,12 +32,13 @@ Here according to the row and column address one of the wordline and one of the 
 ### 6T 1 BIT SRAM CELL
 
 *The sizing of all the 6 Transistors are done so that the internal node voltage at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
+
 [sizing in detail](#https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
 
 Finally, the sizes of 6 Transistors are as follows :
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.png"
-     align=right
+     align=center
      width="whatever" 
      height="250" />
 
@@ -45,7 +48,7 @@ Finally, the sizes of 6 Transistors are as follows :
 | M3, M4 | 0.6um | 0.8um |
 | M5, M6 | 0.6um | 1.2um |
 
-<center>[ fig - 6T-SRAM Cell ]</center>
+---
 
 ## PRE-LAYOUT SIMULATIONS
 
@@ -56,6 +59,7 @@ Static Noise Margin helps to determine the stability of the SRAM. It can also be
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.PNG"
      width="whatever" 
      height="whatever" />
+     
 <center>Examples of SNM for Hold , Read and Write mode respectively.</center>
      
 1. HOLD SNM
@@ -94,12 +98,15 @@ Inabsence of word line voltage, the ability of SRAM to retain the stored data is
      width="whatever" 
      height="whatever" />
 
+---
+
 ## ACKNOWLEDGEMENTS
 
 -   Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
 -   Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
 
 ---
+
 ## CONTACT INFORMATION
 
  - Swadesh Kumar Nath, Design Engineer, [Sevya Multimedia Technologies Pvt. Ltd.](https://sevyamultimedia.com/)
