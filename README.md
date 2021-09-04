@@ -34,7 +34,7 @@ Here according to the row and column address one of the wordline and one of the 
 
 Finally, the sizes of 6 Transistors are as follows :
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.jpg"
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.png"
      align=right
      width="whatever" 
      height="250" />
@@ -53,7 +53,7 @@ Finally, the sizes of 6 Transistors are as follows :
 
 Static Noise Margin helps to determine the stability of the SRAM. It can also be defined as the least noise voltage needed to change the cell state .One of the methods of calculating the Static Noise Margin (SNM) is by plotting the butterfly curve. Butterfly curve is plotted by drawing and mirroring the inverter characteristics and then finding the maximum possible square between them. The length of the side of the square gives SNM. Greater the SNM better is stability.
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.jpg"
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.PNG"
      width="whatever" 
      height="whatever" />
 <center>Examples of SNM for Hold , Read and Write mode respectively.</center>
