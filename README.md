@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [SRAM BLOCKS](#SRAM-BLOCKS)
-     - [6T 1-BIT SRAM CELL](#6T-1-BIT-SRAM CELL)
+     - [6T 1 BIT SRAM CELL](#6T-1-BIT-SRAM CELL)
      - [PRECHARGE CIRCUIT](#PRECHARGE-CIRCUIT)
      - [SENSE AMPLIFIER](#SENSE-AMPLIFIER)
      - [WRITE DRIVER](#WRITE-DRIVER)
@@ -14,7 +14,6 @@
 - [ACKNOWLEDGEMENTS](#ACKNOWLEDGEMENTS)
 
 ## Overview
-
 
 ![SRAM Block Diagram](https://github.com/gautam19499/6T-SRAM_cell_design/blob/main/images/block_diagram_new.jpeg)
 
@@ -28,31 +27,17 @@ Here according to the row and column address one of the wordline and one of the 
 ---
 
 ## SRAM BLOCKS
-### 6T 1-BIT SRAM CELL
+### 6T 1 BIT SRAM CELL
 
 *The sizing of all the 6 Transistors are done so that the internal node voltage at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
+[sizing in detail](#https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
 
----
-> READ OPERATION
-
-[*For reading the data when node Q1 has logic 0 voltage*]
-
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_READ.JPG" 
-     width="whatever" 
-     height="whatever" />
-
----
-> WRITE OPERATION
-
-[*For writing logic o at node Q1 when it has a previous value of logic 1*]
-
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/SRAM_WRITE.JPG" 
-     width="whatever" 
-     height="whatever" />
-
----
 Finally, the sizes of 6 Transistors are as follows :
-
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.jpg"
+     align=right
+     width="whatever" 
+     height="250" />
+<center>[ fig - 6T-SRAM Cell ]</center>
 | TRANSISTOR | WIDTH | LENGTH |
 | --- | --- | --- |
 | M1, M2 | 1.2um | 0.4um |
@@ -86,22 +71,22 @@ Inabsence of word line voltage, the ability of SRAM to retain the stored data is
 
 3. WRITE SNM
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_write.jpg" 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_write.JPG" 
      width="whatever" 
      height="whatever" />
 
 ---
 ### TRANSIENT ANALYSIS
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans1.PNG" 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans1.JPG" 
      width="whatever" 
      height="whatever" />
      
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans2.PNG" 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans2.JPG" 
      width="whatever" 
      height="whatever" />
      
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans3.PNG" 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/simulations/trans3.JPG" 
      width="whatever" 
      height="whatever" />
 
