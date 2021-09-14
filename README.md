@@ -10,8 +10,8 @@
      - [STATIC NOISE MARGIN](#STATIC-NOISE-MARGIN)
      - [TRANSIENT ANALYSIS](#TRANSIENT-ANALYSIS)
 - [LAYOUTS](#LAYOUTS)
-- [CONTACT INFORMATION](#CONTACT-INFORMATION)
 - [ACKNOWLEDGEMENTS](#ACKNOWLEDGEMENTS)
+- [CONTACT INFORMATION](#CONTACT-INFORMATION)
 
 ---
 
@@ -19,8 +19,7 @@
 
 ![SRAM Block Diagram](https://github.com/gautam19499/6T-SRAM_cell_design/blob/main/images/block_diagram_new.jpeg)
 
-In this Project we designed the various components of SRAM considering the below
-constraints
+In this Project we designed the various components of SRAM considering the below specifications
 * Memory size    : *1K\*32bit*
 * Supply voltage : *5.0V*
 * Technology     : *scn4m_subm 0.5um*
@@ -35,11 +34,11 @@ Here according to the row and column address one of the wordline and one of the 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.png"
      align=right
      width="whatever" 
-     height="250" />
+     height="400" />
  
 *The sizing of all the 6 Transistors are done so that the internal node voltage at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
 
-[sizing in detail](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
+[sizing of 6T 1 BIT SRAM in detail](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
 
 Finally, the sizes of 6 Transistors are as follows :
 
@@ -59,7 +58,7 @@ Finally, the sizes of 6 Transistors are as follows :
 
 ## PRE-LAYOUT SIMULATIONS
 
-### STATIC NOISE MARGIN (SNM)
+### STATIC NOISE MARGIN
 
 Static Noise Margin helps to determine the stability of the SRAM. It can also be defined as the least noise voltage needed to change the cell state .One of the methods of calculating the Static Noise Margin (SNM) is by plotting the butterfly curve. Butterfly curve is plotted by drawing and mirroring the inverter characteristics and then finding the maximum possible square between them. The length of the side of the square gives SNM. Greater the SNM better is stability.
 
@@ -118,3 +117,5 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
 ## CONTACT INFORMATION
 
  - Swadesh Kumar Nath, Design Engineer, [Sevya Multimedia Technologies Pvt. Ltd.](https://sevyamultimedia.com/)
+ 
+ ---
