@@ -1,7 +1,7 @@
 # 6T-SRAM
 
 ## Table of Contents
-- [SRAM BLOCKS](#SRAM-BLOCKS)
+- [SRAM ARCHITECTURE](#SRAM-ARCHITECTURE)
      - [6T 1 BIT SRAM CELL](#6T-1-BIT-SRAM-CELL)
      - [PRECHARGE CIRCUIT](#PRECHARGE-CIRCUIT)
      - [SENSE AMPLIFIER](#SENSE-AMPLIFIER)
@@ -17,9 +17,9 @@
 
 ## Overview
 
-![SRAM Block Diagram](https://github.com/gautam19499/6T-SRAM_cell_design/blob/main/images/block_diagram_new.jpeg)
+![SRAM Block Diagram](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sram_arc.jpg)
 
-In this Project we designed the various components of SRAM considering the below specifications
+In this Project we have designed the various components of SRAM considering the below specifications
 * Memory size    : *1K\*32bit*
 * Supply voltage : *5.0V*
 * Technology     : *scn4m_subm 0.5um*
@@ -28,7 +28,7 @@ Here according to the row and column address one of the wordline and one of the 
 
 ---
 
-## SRAM BLOCKS
+## SRAM ARCHITECTURE
 ### 6T 1 BIT SRAM CELL
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.png"
