@@ -31,7 +31,7 @@ Here according to the row and column address one of the wordline and one of the 
 ## SRAM ARCHITECTURE
 ### 6T 1 BIT SRAM CELL
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6T-SRAM_CELL.png"
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6Tcell.jpg"
      align=right
      width="whatever" 
      height="400" />
@@ -50,10 +50,25 @@ Finally, the sizes of 6 Transistors are as follows :
 
 ### PRECHARGE CIRCUIT
 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/pc.jpg"
+     align=right
+     width="whatever" 
+     height="400" />
+
 ### SENSE AMPLIFIER
 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sa.jpg"
+     align=right
+     width="whatever" 
+     height="400" />
+     
 ### WRITE DRIVER
 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/wd.jpg"
+     align=right
+     width="whatever" 
+     height="400" />
+     
 ---
 
 ## PRE-LAYOUT SIMULATIONS
