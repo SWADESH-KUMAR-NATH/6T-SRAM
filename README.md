@@ -57,6 +57,10 @@ Finally, the sizes of 6 Transistors are as follows :
 
 ### PRECHARGE CIRCUIT
 
+-Precharge Circuit acts like a switch which charges the bit-lines before read and write operations. The third PMOS transistor connects the two bit-lines together to equalize the voltage between them.
+-This circuit is controlled by another enabling signal "PC" which turns on/off the PMOSes.
+-It plays significant role when more number of 6T-bit cells are implemented with one set of bit lines i.e. BL & BLB.
+
 ### SENSE AMPLIFIER
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sa.jpg"
