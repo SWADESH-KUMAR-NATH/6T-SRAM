@@ -29,13 +29,14 @@ Here according to the row and column address one of the wordline and one of the 
 ---
 
 ## SRAM ARCHITECTURE
-### 6T 1 BIT SRAM CELL
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6Tcell.jpg"
      align=right
      width="whatever" 
      height="400" />
- 
+
+### 6T 1 BIT SRAM CELL
+
 *The sizing of all the 6 Transistors are done so that the internal node voltage at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
 
 [sizing of 6T 1 BIT SRAM in detail](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
@@ -48,12 +49,13 @@ Finally, the sizes of 6 Transistors are as follows :
 | M3, M4 | 0.6um | 0.8um |
 | M5, M6 | 0.6um | 1.2um |
 
-### PRECHARGE CIRCUIT
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/pc.jpg"
      align=right
      width="whatever" 
      height="400" />
+
+### PRECHARGE CIRCUIT
 
 ### SENSE AMPLIFIER
 
