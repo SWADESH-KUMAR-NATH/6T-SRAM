@@ -39,7 +39,7 @@ Here according to the row and column address one of the wordline and one of the 
 
 *The sizing of all the 6 Transistors are done so that the internal node voltage at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
 
-[sizing of 6T 1 BIT SRAM in detail](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md)
+The sizing of 6T 1 BIT SRAM is described [here](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md).
 
 Finally, the sizes of 6 Transistors are as follows :
 
