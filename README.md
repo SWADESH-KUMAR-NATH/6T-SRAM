@@ -37,12 +37,12 @@ functionality.
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6Tcell.jpg"
      align=right
      width="whatever" 
-     height=200 />
+     height=300 />
 
 ### 6T 1 BIT SRAM CELL
 
 *The sizing of all the 6 Transistors are done so that the internal node voltage 
-at **Q1** should not exceed Threshold voltage **Vt** of Transistors*
+at **Q1** should not exceed Threshold voltage **Vt** of M2 Transistors*
 
 The sizing of 6T 1 BIT SRAM is described [here](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sizing.md).
 
@@ -58,7 +58,7 @@ Finally, the sizes of 6 Transistors are as follows :
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/pc.jpg"
      align=right
      width="whatever" 
-     height=200 />
+     height=300 />
 
 ### PRECHARGE CIRCUIT
 
@@ -69,11 +69,12 @@ equalize the voltage between them.
 the PMOSes.
 - It plays significant role when more number of 6T-bit cells are implemented with 
 one set of bit lines i.e. BL & BLB.
+- We should make the pmoses strong enough to pull up the bitline voltages to avoid delay.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sa.jpg"
      align=right
      width="whatever" 
-     height=200 />
+     height=300 />
 
 ### SENSE AMPLIFIER
 
@@ -91,13 +92,14 @@ the output to stable states i.e. Logic 0 & 1.
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/wd.jpg"
      align=right
      width="whatever" 
-     height=200 />
+     height=300 />
      
 ### WRITE DRIVER
 
 - Write Driver is used to write data into the 6t-Bit cells. During write operations 
 when the "W_EN" signal is enabled, depending upon the signal of "DIN" it pulls down 
 the voltage of a specific bitline to Logic 0 .
+- The stronger the nmoses the quicker the bitlines get pulled down to Logic 0.
 
 ---
 
