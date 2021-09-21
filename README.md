@@ -24,7 +24,7 @@ In this Project we have designed the various components of SRAM considering the 
 * Supply voltage : *5.0V*
 * Technology     : *scn4m_subm 0.5um*
 
-Here according to the row and column address one of the wordline and one of the column will get selected, which will give access to one of the 6T cell in the respective column. For this 6T cell, we did the simulation and checked its functionality.
+Here according to the row and column address one of the wordline and one of the column will get selected, which will give access to one of the 6T-Bit cells in the respective column. For this 6T cell, we did the simulation and checked its functionality.
 
 ---
 
@@ -57,24 +57,30 @@ Finally, the sizes of 6 Transistors are as follows :
 
 ### PRECHARGE CIRCUIT
 
--Precharge Circuit acts like a switch which charges the bit-lines before read and write operations. The third PMOS transistor connects the two bit-lines together to equalize the voltage between them.
--This circuit is controlled by another enabling signal "PC" which turns on/off the PMOSes.
--It plays significant role when more number of 6T-bit cells are implemented with one set of bit lines i.e. BL & BLB.
-
-### SENSE AMPLIFIER
+- Precharge Circuit acts like a switch which charges the bit-lines before read and write operations. The third PMOS transistor connects the two bit-lines together to equalize the voltage between them.
+- This circuit is controlled by another enabling signal "PC" which turns on/off the PMOSes.
+- It plays significant role when more number of 6T-bit cells are implemented with one set of bit lines i.e. BL & BLB.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sa.jpg"
      align=right
      width="whatever" 
      height="400" />
-     
-### WRITE DRIVER
+
+### SENSE AMPLIFIER
+
+- The Sense Amplifier is a differential circuit amplifier to sense the voltage difference between BL and BLB while a read operation is performed. It recovers the signals from the bit-lines as they do not experience full voltage swing because of large parasitic capacitance.
+- Here we've used *Basic Latch Based Sense Amplifier* with pass transistors which effectively decouples the amplifier inputs and outputs from the bitlines. The whole circuit is controlled by "R_EN" signal.
+- Because of the positive feedback due to the cross coupled inverters, the node voltages couldn't stay at the metastable state and the bias developed latches the output to stable states i.e. Logic 0 & 1.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/wd.jpg"
      align=right
      width="whatever" 
      height="400" />
      
+### WRITE DRIVER
+
+- Write Driver is used to write data into the 6t-Bit cells. During write operations when the "W_EN" signal is enabled, depending upon the signal of "DIN" it pulls down the voltage of a specific bitline to Logic 0 .
+
 ---
 
 ## PRE-LAYOUT SIMULATIONS
