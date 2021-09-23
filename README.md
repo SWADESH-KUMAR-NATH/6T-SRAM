@@ -93,13 +93,13 @@ the output to stable states i.e. Logic 0 & 1.
      
 ### WRITE DRIVER
 
-- Write Driver is used to write data into the 6t-Bit cells. During write operations when the "W_EN" signal is enabled (at Logic 1), depending upon the signal of "DIN" it pulls down the voltage of a specific bitline to Logic 0 .
-
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/wd.jpg"
      align=right
      width=400 
      height="whatever"  />
      
+- Write Driver is used to write data into the 6t-Bit cells. During write operations when the "W_EN" signal is enabled (at Logic 1), depending upon the signal of "DIN" it pulls down the voltage of a specific bitline to Logic 0 .
+
 - If "DIN" is Logic 1 the nmos connectig to the BLB bitline gets turned on thereby pulling its voltage to ground (Logic 0) and updates the _Q1_ and _Q2_ node voltage as Logic 1 and 0 . Similarly when "DIN" is Logic 0, the nmos connectig to the BL bitline gets turned on thereby pulling its voltage to ground (Logic 0), which eventually leads to updating the _Q1_ and _Q2_ node voltage as Logic 0 and 1 respectfully. 
 - The stronger the nmoses the quicker the bitlines get pulled down to Logic 0.
 
