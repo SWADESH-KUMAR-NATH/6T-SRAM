@@ -111,11 +111,11 @@ the output to stable states i.e. Logic 0 & 1.
 
 Static Noise Margin helps to determine the stability of the SRAM. It can also be defined as the least noise voltage needed to change the cell state .One of the methods of calculating the Static Noise Margin (SNM) is by plotting the butterfly curve. Butterfly curve is plotted by drawing and mirroring the inverter characteristics and then finding the maximum possible square between them. The length of the side of the square gives SNM. Greater the SNM better is stability.
 
-<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.PNG"
+<!-- <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snmx.PNG"
      width="whatever" 
      height="whatever" />
      
-<center>Examples of SNM for Hold , Read and Write mode respectively.</center>
+<center>Examples of SNM for Hold , Read and Write mode respectively.</center> -->
      
 1. HOLD SNM
 In absence of word line voltage, the ability of SRAM to retain the stored data is defined as hold stability.
@@ -166,5 +166,6 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
 ## CONTACT INFORMATION
 
  - Swadesh Kumar Nath, Design Engineer, [Sevya Multimedia Technologies Pvt. Ltd.](https://sevyamultimedia.com/)
+ - [Linked in](https://www.linkedin.com/in/swadesh-kumar-nath-b394a1194/) 
  
  ---
