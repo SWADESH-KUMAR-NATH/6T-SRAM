@@ -158,8 +158,8 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
 
 ## ACKNOWLEDGEMENTS
 
--   Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
--   Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
+-   Dr. Saroj Rout, Associate Professor, Silicon Institute Of Technology, Bhubaneswar
+-   Mr. Santunu Sarangi, Assistant Professor, Silicon Institute Of Technology, Bhubaneswar
 
 ---
 
