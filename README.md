@@ -36,8 +36,8 @@ functionality.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/6Tcell.jpg"
      align=right
-     width="whatever" 
-     height=300 />
+     width=400
+     height="whatever" />
 
 ### 6T 1 BIT SRAM CELL
 
@@ -57,8 +57,8 @@ Finally, the sizes of 6 Transistors are as follows :
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/pc.jpg"
      align=right
-     width="whatever" 
-     height=300 />
+     width=400 
+     height="whatever"  />
 
 ### PRECHARGE CIRCUIT
 
@@ -73,8 +73,8 @@ one set of bit lines i.e. BL & BLB.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sa.jpg"
      align=right
-     width="whatever" 
-     height=300 />
+     width=400
+     height="whatever"  />
 
 ### SENSE AMPLIFIER
 
@@ -91,8 +91,8 @@ the output to stable states i.e. Logic 0 & 1.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/wd.jpg"
      align=right
-     width="whatever" 
-     height=300 />
+     width=400 
+     height="whatever"  />
      
 ### WRITE DRIVER
 
