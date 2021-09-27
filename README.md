@@ -1,6 +1,7 @@
 # 6T-SRAM
 
 ## Table of Contents
+- [OVERVIEW](#OVERVIEW)
 - [SRAM ARCHITECTURE](#SRAM-ARCHITECTURE)
      - [6T 1 BIT SRAM CELL](#6T-1-BIT-SRAM-CELL)
      - [PRECHARGE CIRCUIT](#PRECHARGE-CIRCUIT)
@@ -15,7 +16,7 @@
 
 ---
 
-## Overview
+## OVERVIEW
 
 ![SRAM Block Diagram](https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/sram_arc.jpg)
 
@@ -120,7 +121,7 @@ Static Noise Margin helps to determine the stability of the SRAM. It can also be
 1. HOLD SNM
 
 - In absence of word line voltage, the ability of SRAM to retain the stored data is defined as hold stability.
-- Hold SNM is the side of the largest square nested inside the butterfly curve.
+- Hold SNM is the side of the largest square nested inside the butterfly curve, which is found to be 1V.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_hold.jpg" 
      width="whatever" 
@@ -128,7 +129,8 @@ Static Noise Margin helps to determine the stability of the SRAM. It can also be
 
 2. READ SNM
 
-The read margin is used to find out read stability of the SRAM. Read Stability is the ability to prevent the SRAM cell to flip the stored value while the stored value is being read.
+- The read margin is used to find out read stability of the SRAM. Read Stability is the ability to prevent the SRAM cell to flip the stored value while the stored value is being read.
+- Here the read margin is 0.4V.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_read.jpg" 
      width="whatever" 
@@ -136,7 +138,8 @@ The read margin is used to find out read stability of the SRAM. Read Stability i
 
 3. WRITE SNM
 
-The minimum voltage required to feed new value into the SRAM cell is known as write margin. Write stability is the ability of the SRAM to allow the changes in the stored value.
+- The minimum voltage required to feed new value into the SRAM cell is known as write margin. Write stability is the ability of the SRAM to allow the changes in the stored value.
+- The write margin is found to be 1.7V.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_write.JPG" 
      width="whatever" 
@@ -178,6 +181,13 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
      height="whatever" />
 
 ---
+
+## LAYOUTS
+
+### 6T 1 BIT SRAM CELL
+### PRECHARGE CIRCUIT
+### SENSE AMPLIFIER
+### WRITE DRIVER
 
 ## ACKNOWLEDGEMENTS
 
