@@ -8,7 +8,7 @@
      - [WRITE DRIVER](#WRITE-DRIVER)
 - [PRE-LAYOUT SIMULATIONS](#PRE-LAYOUT-SIMULATIONS)
      - [STATIC NOISE MARGIN](#STATIC-NOISE-MARGIN)
-     - [TRANSIENT ANALYSIS](#TRANSIENT-ANALYSIS)
+     - [TIMING ANALYSIS](#TIMING-ANALYSIS)
 - [LAYOUTS](#LAYOUTS)
 - [ACKNOWLEDGEMENTS](#ACKNOWLEDGEMENTS)
 - [CONTACT INFORMATION](#CONTACT-INFORMATION)
@@ -145,7 +145,15 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
 ---
 
 ### TIMING ANALYSIS
+
+- In this Project we have performed read and write operation over one 6T-bit cell in a 1K\*32 bit SRAM havig 128 rows and 256 columns. So during the operation there are some paracitic effects of remaining 127 bit cells in the specific column and 255 bit cells in the specific row over the operating bit cell.
+- As the size of the SRAM increases it becomes hard to read data from or write data into a specific bit cell as junction capacitance of each bit cell get added. Therefore we need some reading and writing circuitaries to operate properly.
+
 1. Timing Analysis with Precharge Circuit
+
+- Before reading data, the bit lines are charged upto Vdd and the supply is cut-off before the access transistors are turned on (by **WL** signal). Accordingly we must give the clock enabling signal **PC** to the Precharge circuit.
+- The NMOSes connected to the bit lines are responsible for writing data into to bit cell by pulling down the bit lines and these are controlled by 2 signals **W0** and **W1**.
+- When WL and PC both are at Logic 1 if W0 is set to Logic 1 the voltage at BL node pulled down to 0V which writes 0 at into the bit cell. Similarly W1 pulls down BLB node to 0V and writes 1 into the bit cell.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans1.JPG" 
      width="whatever" 
