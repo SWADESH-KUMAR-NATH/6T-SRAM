@@ -118,13 +118,16 @@ Static Noise Margin helps to determine the stability of the SRAM. It can also be
 <center>Examples of SNM for Hold , Read and Write mode respectively.</center> -->
      
 1. HOLD SNM
-In absence of word line voltage, the ability of SRAM to retain the stored data is defined as hold stability.
+
+- In absence of word line voltage, the ability of SRAM to retain the stored data is defined as hold stability.
+- Hold SNM is the side of the largest square nested inside the butterfly curve.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_hold.jpg" 
      width="whatever" 
      height="whatever" />
 
 2. READ SNM
+
 The read margin is used to find out read stability of the SRAM. Read Stability is the ability to prevent the SRAM cell to flip the stored value while the stored value is being read.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_read.jpg" 
@@ -132,6 +135,7 @@ The read margin is used to find out read stability of the SRAM. Read Stability i
      height="whatever" />
 
 3. WRITE SNM
+
 The minimum voltage required to feed new value into the SRAM cell is known as write margin. Write stability is the ability of the SRAM to allow the changes in the stored value.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/snm_write.JPG" 
@@ -140,16 +144,21 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
 
 ---
 
-### TRANSIENT ANALYSIS
+### TIMING ANALYSIS
+1. Timing Analysis with Precharge Circuit
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans1.JPG" 
      width="whatever" 
      height="whatever" />
-     
+
+2. Timing Analysis with Sense Amplifier
+
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans2.JPG" 
      width="whatever" 
      height="whatever" />
-     
+
+3. Timing Analysis with Write Driver
+
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans3.JPG" 
      width="whatever" 
      height="whatever" />
