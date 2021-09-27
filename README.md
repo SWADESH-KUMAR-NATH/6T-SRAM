@@ -149,7 +149,7 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
 - In this Project we have performed read and write operation over one 6T-bit cell in a 1K\*32 bit SRAM havig 128 rows and 256 columns. So during the operation there are some paracitic effects of remaining 127 bit cells in the specific column and 255 bit cells in the specific row over the operating bit cell.
 - As the size of the SRAM increases it becomes hard to read data from or write data into a specific bit cell as junction capacitance of each bit cell get added. Therefore we need some reading and writing circuitaries to operate properly.
 
-1. Timing Analysis with Precharge Circuit
+#### Timing Analysis with Precharge Circuit
 
 - Before reading data, the bit lines are charged upto Vdd and the supply is cut-off before the access transistors are turned on (by **WL** signal). Accordingly we must give the clock enabling signal **PC** to the Precharge circuit.
 - The NMOSes connected to the bit lines are responsible for writing data into to bit cell by pulling down the bit lines and these are controlled by 2 signals **W0** and **W1**.
@@ -159,14 +159,20 @@ The minimum voltage required to feed new value into the SRAM cell is known as wr
      width="whatever" 
      height="whatever" />
 
-2. Timing Analysis with Sense Amplifier
+#### Timing Analysis with Sense Amplifier
+
+- When the **R_EN** enable signal is at Logic 0 it allows the access transistors to update the input of the Sense amplifier with the bit line voltages. Then when the signal gets high again it turns on the NMOS connecting to the ground which helps in latching the voltages at the 2 nodes of the Sense Amplifier (SA and SAB) from metastable state to stable states.
+- It's necessary to keep the R_EN at logic 0 for minimum time possible i.e. time to update the inputs with latest bit line voltages.
 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans2.JPG" 
      width="whatever" 
      height="whatever" />
 
-3. Timing Analysis with Write Driver
+#### Timing Analysis with Write Driver
 
+- Write driver is controlled by **W_EN** signal which needs to be at logic 1 to write data. WE should keep the voltage of the **DIN** constant at logic 1 or 0. We must not change the DIN value while WL is high to avoid errors because of parasitics.
+- For one column one Write driver is there so there are 128 number of write drivers from which one gets selected by the column decoder.
+ 
 <img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/trans3.JPG" 
      width="whatever" 
      height="whatever" />
