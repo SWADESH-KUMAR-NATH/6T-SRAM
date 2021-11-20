@@ -185,10 +185,29 @@ Static Noise Margin helps to determine the stability of the SRAM. It can also be
 ## LAYOUTS
 
 ### 6T 1 BIT SRAM CELL
+
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/l6Tcell.PNG" 
+     width="whatever" 
+     height="whatever" />
+     
 ### PRECHARGE CIRCUIT
+
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/lpc.PNG" 
+     width="whatever" 
+     height="whatever" />
+     
 ### SENSE AMPLIFIER
+
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/lsa.PNG" 
+     width="whatever" 
+     height="whatever" />
+     
 ### WRITE DRIVER
 
+<img src="https://github.com/SWADESH-KUMAR-NATH/6T-SRAM/blob/main/schematics/lwd.PNG" 
+     width="whatever" 
+     height="whatever" />
+     
 ## ACKNOWLEDGEMENTS
 
 -   Dr. Saroj Rout, Associate Professor, Silicon Institute Of Technology, Bhubaneswar
